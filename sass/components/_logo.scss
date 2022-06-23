@@ -1,0 +1,14 @@
+.header__logo {
+    color: $logo-total-color;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2;
+    text-decoration: none;
+    
+    & .header__logo--color {
+            color: $accent-color;
+        }
+}
+

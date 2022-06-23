@@ -1,0 +1,54 @@
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$accent-color: #2196F3;
+$white: #ffffff;
+$bg-primary-color: #F5F4FA;
+$logo-total-color: #000000;
+$border-work: #EEEEEE;
+$border-header: #ECECEC;
+$bg-hero: #c4c4c4;
+$color-icon: #afb1b8;
+$bgdrop: rgba(0, 0, 0, 0.2);
+$bgform-button: #188CE8;
+$work-list-title: rgba(47, 48, 58, 0.8);
+$bg-overlay: rgba(33, 150, 243, 0.9);
+$bg-footer: #2F303A;
+$bg-footer-icon: rgba(255, 255, 255, 0.1);
+$color-mail-animate: rgba(255, 255, 255, 0.6);
+$placeholder: rgba(117, 117, 117, 0.5);
+$border-input: rgba(33, 33, 33, 0.2);
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $white;
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+    padding-top: 52px;
+    position: relative;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link,
+.menu__link,
+.contacts__link {
+    text-decoration: none;
+}
+
+.modal__form {
+    padding: 0;
+    margin: 0 auto;
+}
