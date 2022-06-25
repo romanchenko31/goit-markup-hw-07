@@ -259,7 +259,7 @@ body {
 .modal__container .modal__close {
   position: absolute;
   background-position: center;
-  background-image: url(..//images/Vector.svg);
+  background-image: url(../../images/Vector.svg);
   background-color: #ffffff;
   background-repeat: no-repeat;
   /* border: 1px solid rgba(0, 0, 0, 0.1); */
@@ -469,26 +469,6 @@ input[type='checkbox'] {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
-}
-
-.about-list .one::before {
-  background-image: url();
-}
-
-.about-list .two::before {
-  background-image: url();
-}
-
-.about-list .three::before {
-  background-image: url();
-}
-
-.about-list .four::before {
-  background-image: url();
-}
-
-.about-list .item + .item {
-  margin-left: 30px;
 }
 
 .about-list .title {
